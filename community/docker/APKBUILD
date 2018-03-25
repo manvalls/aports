@@ -1,8 +1,8 @@
 # Maintainer: Natanael Copa <ncopa@alpinelinux.org>
 # Contributor: Bernhard J. M. Gruen <bernhard.gruen@googlemail.com>
 pkgname=docker
-pkgver=18.03.0
-_ver=${pkgver/_/-}-ce-patched
+pkgver=18.04.0
+_ver=${pkgver/_/-}-ce-dev
 pkgrel=0
 _gitcommit=v$_ver
 pkgdesc="Pack, ship and run any application as a lightweight container"
@@ -232,7 +232,7 @@ vim() {
 	done
 }
 
-sha512sums="882e6f4ed4ff560ebc79128e8f6d6dd329c1dd27cdfa96ac25afe03b2b3461bb788dc90295d000baf36cc889ca1d32467115e0dec823de407dd829b27a64ee06  docker-18.03.0.tar.gz
+sha512sums="030ec695c5294486daea6861ff767c7e722e8bb5c4abdac16d8cdcfc89b67710abf6cf96ac700a35c375ad0dd33f6e8cd4527883b6379a196c90db22b13b1c47  docker-18.04.0.tar.gz
 c7b24ca6212ce500d1d4c3a1776be5ca116d4f005d71e5fe8f2228c26f039058f3dd1071e9e39aa9c93272a49f7ff2ac86e2fbbcf6115cc3de65a370127d8ea5  runc-9f9c96235cc97674e935002fc3d78361b696a69e.tar.gz
 46e435a93425ca04c67b30deeb1fbde6a1cc0d3ffdbec9ec840803a747fe9bde96f5bc9e98cf0bd803a794a858049d5df5bce8eb42a416f87d828ce00de10f41  containerd-9b55aab90508bd389d7654c4baf173a981477d55.tar.gz
 43d7a8259b5ee2f605ae07dfe64e25b90445b9d38b279a19366df64093dc7d16f3820e3cd67c8569292efc548334a278f1fcbcfb13aed3a73ba980309f8115c9  libnetwork-fcf1c3b5e57833aaaa756ae3c4140ea54da00319.tar.gz
